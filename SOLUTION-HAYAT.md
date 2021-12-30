@@ -12,6 +12,6 @@
    [^] - Playhead on process bar moving farward according to video running time
    [^] - At the end of process bar there is video remaining time ['00:00']
    [^] - Added show shortcuts to control the videos keyboard shortcuts as follow
-        - [M] - toggle mute
-        - [space] - toggle play
-        - [F] - toggle full screen
+        [M] - toggle mute
+        [space] - toggle play
+        [F] - toggle full screen
