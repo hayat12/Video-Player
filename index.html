@@ -12,17 +12,19 @@
 
 <body>
     <div class="video-container">
-        <!-- <video src="http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4"></video>-->
         <video src="./assets/videos/snowman.mp4"></video>
         <div class="controls-container">
             <div class="progress-controls">
-                <div class="progress-bar" id="pdiv">
+                <div class="progress-bar">
                     <div class="watched-bar"></div>
                     <div id="mydiv" class="playhead"></div>
+                    <span class="tooltiptext">helo ....</span>
                 </div>
                 <div class="time-remaining">
                     00:00
                 </div>
+
+
             </div>
             <div class="controls">
                 <button class="play-pause">
@@ -70,7 +72,7 @@
                         <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
                         <line x1="12" y1="17" x2="12.01" y2="17"></line>
                     </svg></button>
-                <button class="next">
+               <!-- <button class="next">
                     <svg viewBox="0 0 24 24" width="24" height="24">
                         <polygon points="5 4 15 12 5 20 5 4"></polygon>
                         <line x1="19" y1="5" x2="19" y2="19"></line>
@@ -82,20 +84,20 @@
                         <polyline points="2 17 12 22 22 17"></polyline>
                         <polyline points="2 12 12 17 22 12"></polyline>
                     </svg>
-                </button>
+                </button> -->
                 <button class="captions">
                     <svg viewBox="0 0 24 24" width="24" height="24">
                         <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
                     </svg>
                 </button>
-                <button class="cast">
+                <!-- <button class="cast">
                     <svg viewBox="0 0 24 24">
                         <path
                             d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6">
                         </path>
                         <line x1="2" y1="20" x2="2.01" y2="20"></line>
                     </svg>
-                </button>
+                </button> -->
                 <button class="full-screen">
                     <svg class="full" viewBox="0 0 24 24">
                         <path
@@ -111,6 +113,7 @@
             </div>
         </div>
     </div>
+      
     <script src="./js/main.js"></script>
 </body>
 

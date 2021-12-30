@@ -161,7 +161,24 @@ body {
 }
 
 .video-container .progress-controls .progress-bar .playhead:hover{
-    /* opacity: 1; */
     transform: scale(1.2);
     background: blue;
 }
+.video-container .progress-controls .progress-bar .playhead:hover .tooltiptext{
+    visibility: visible;
+    background: red;
+    position:absolute;
+}
+
+.video-container .progress-controls .progress-bar .tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+  }
+
+/* .progress-bar :hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+    contain: "Hello";
+  } */

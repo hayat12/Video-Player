@@ -13,5 +13,9 @@
    [^] - At the end of process bar there is video remaining time ['00:00']
    [^] - Added show shortcuts to control the videos keyboard shortcuts as follow
         [M] - toggle mute
-        [space] - toggle play
+        [Space] - toggle play
         [F] - toggle full screen
+        [ArrowRight] fastForward
+        [ArrowLeft] backforward
+[^] - Video controler section and mouse will hide after 5 seconds if there is not activity if any activiy happened the controler section will appeare
+[^] click on process bar, the playhead will move to mouse position where you clicked on the process bar
